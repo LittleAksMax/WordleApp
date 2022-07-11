@@ -90,7 +90,7 @@ public partial class GameForm : Form
         }
         catch (UnacceptableWordException)
         {
-            // could maybe add some event to warn the player
+            MessageBox.Show($"The word `{guess}` is not in the dictionary");
             return;
         }
 

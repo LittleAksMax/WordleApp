@@ -28,6 +28,6 @@ My focus in this project was the logic and the unit testing, therefore I chiefly
 **NOTE:** some tests needed to run sequentially because in my unit tests I had a dictionary.txt file with a long list of all the words in play for the wordle. If they ran concurrently, I would get a permission denied error since multiple test objects would try to open the same file, and all my tests would fail.
 
 ## Screenshots
-![](assets/failure.png)
+![](assets/failure.gif)
 ![](assets/success.png)
 ![](assets/out-of-guesses.png)
